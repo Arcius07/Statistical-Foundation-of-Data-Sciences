@@ -58,7 +58,7 @@ Organized the output into a clean DataFrame and ordered it by age group.
 ## 🚀 How to Run
 1. **Clone the repository**
    ```bash
-   git clone 
+   git clone https://github.com/Arcius07/Statistical-Foundation-of-Data-Sciences.git
 2. **Navigate into the project folder**
    ```bash
    cd Statistical-Foundation-of-Data-Sciences
@@ -67,7 +67,7 @@ Organized the output into a clean DataFrame and ordered it by age group.
    ```bash
    jupyter notebook
 Then open the notebook manually, e.g.
-Practical 1 Testing Pandas and Numpy/Practical_1.ipynb
+Practical 1 Testing Pandas and Numpy/Pr_1.ipynb
 
 Using Google Colab:
 Upload the .ipynb file from the folder into Colab and run it there.
