@@ -20,7 +20,7 @@
 
 **How I did it:**
 
-- First, I calculated the **mean** and **standard deviation** of the `Salary` column while ignoring `NaN` values:
+- First, I calculated the **mean** and **standard deviation** of the `Income` column while ignoring `NaN` values:
 Then, I computed the z-scores for each value in the Salary column using the formula:
                 z= (x-𝜇)/σ          	​
 - Counted outliers using the rule `|z| > 3`.  
