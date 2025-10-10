@@ -1,48 +1,14 @@
-# 🎓 Teachers Rating Dataset Analysis – Practical 3
+Statistical Foundation of Data Sciences
+This repository contains all the practical work, exercises, and implementations for the Statistical Foundation of Data Sciences course.
+It serves as a collection of code and notes to practice and understand the statistical methods taught in class.
 
-## 🧭 Objective
-This practical continues the analysis of the **Teachers Rating Dataset** (used in Practical 2).  
-The goal is to perform **data filtering, duplication checks, and visualization** to explore relationships between instructors’ age, division, gender, and evaluation scores.
+📌 Contents
+Practical 1
+Practical 2
+Practical 3
+'''Will be updated as we do the practicals in our course.'''
+🎯 Goal
+To build a strong understanding of statistics through hands-on coding and real-world examples, laying the foundation for advanced data science and machine learning concepts.
 
----
-
-## 📊 Dataset Description
-
-The dataset contains information about **university instructors** and their teaching evaluations.
-
-| Column | Description |
-|---------|--------------|
-| **Prof** | Professor name (duplicates may appear for multiple courses) |
-| **Gender** | Male or Female |
-| **Tenure** | Indicates whether the professor is tenured (Yes or No) |
-| **Beauty** | Instructor’s attractiveness score (contains outliers) |
-| **Rating** | Teaching evaluation score (1–5 scale) |
-| **Students** | Number of students in the class *(includes one outlier with 300 students)* |
-| **Age** | Instructor’s age |
-| **Division** | Course type: “Lower” or “Upper” Division |
-
----
-
-## ⚙️ Tools Used
-
-Python 3.x
-
-NumPy
-
-pandas
-
-Matplotlib
-
-Jupyter Notebook / Google Colab
-
-## 🧾 Conclusion
-
-Duplicates exist due to multiple courses taught by the same instructor.
-
-Mean age changes slightly when considering unique professors only.
-
-Lower-division instructors may receive slightly higher evaluation scores.
-
-No strong linear relationship is observed between age and ratings.
-
-Visualization by gender and tenure highlights small variations, but no major bias is apparent.
+🛠️ Tech Stack
+Python (NumPy, Pandas, SciPy, Matplotlib, Seaborn)
