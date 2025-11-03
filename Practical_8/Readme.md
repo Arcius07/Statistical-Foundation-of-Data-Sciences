@@ -112,7 +112,3 @@ Both highlight **Glucose** as the primary decision factor.
 - Scikit-learn
 
 ---
-
-## 🧑‍💻 Author
-**Sarthak Thakur**  
-Data Science Student | Passionate about AI, ML & Analytics  
