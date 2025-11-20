@@ -1,4 +1,4 @@
-#📘 GPT-2 Fine-Tuning — Football Dataset
+# 📘 GPT-2 Fine-Tuning — Football Dataset
 
 This project demonstrates how to fine-tune GPT-2 on a custom text dataset using Hugging Face Transformers.
 
@@ -9,7 +9,7 @@ The model is trained on football.txt, a curated list of football facts including
 ├── football.txt         # Dataset (general football facts)
 └── README.md            # Documentation
 ```
-#🧠 Dataset Details
+# 🧠 Dataset Details
 
 The dataset football.txt contains short descriptive lines about:
 
@@ -21,7 +21,7 @@ Major Competitions: FIFA World Cup, UEFA Champions League
 
 Gameplay Elements: tactics, formations, VAR, goalkeeping
 
-#📦 Installation
+# 📦 Installation
 ```
 1️⃣ Create a virtual environment (Windows)
 python -m venv venv
@@ -31,7 +31,7 @@ venv\Scripts\activate
 pip install transformers datasets torch
 ```
 
-#▶️ Running the Fine-Tuner
+# ▶️ Running the Fine-Tuner
 ```
 Make sure football.txt is in the same directory as finetune.py.
 
@@ -44,7 +44,7 @@ The fine-tuned model will be saved to:
 ```
 ./finetuned-football-model
 ```
-#✨ Using the Trained Model
+# ✨ Using the Trained Model
 ```
 Create a new file (run_model.py) or use a notebook:
 
@@ -68,7 +68,7 @@ print("-" * 20)
 print(tokenizer.decode(output[0], skip_special_tokens=True))
 print("-" * 20)
 ```
-#🎯 Why This Project?
+# 🎯 Why This Project?
 
 Minimal Code: Uses Hugging Face Trainer API for simplicity
 
@@ -78,7 +78,7 @@ Beginner-Friendly: Perfect introduction to LLM fine-tuning
 
 Reusable: You can swap in any dataset (sports, tech, books, etc.)
 
-💡 Optional Tip for Better Results
+# 💡 Optional Tip for Better Results
 
 Since football.txt is very small (≈15 lines):
 
