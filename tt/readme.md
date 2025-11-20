@@ -10,6 +10,7 @@ The model is trained on `football.txt`, a curated list of facts about football r
 ├── finetune.py          # The main training script
 ├── football.txt         # Dataset (general facts & rules)
 └── README.md            # Project documentation
+```
 🧠 Dataset Details
 The dataset (football.txt) contains text data regarding:
 
