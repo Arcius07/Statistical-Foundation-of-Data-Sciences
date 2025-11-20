@@ -11,7 +11,7 @@ The model is trained on `football.txt`, a curated list of facts about football r
 ├── football.txt         # Dataset (general facts & rules)
 └── README.md            # Project documentation
 ```
-🧠 Dataset Details
+# 🧠 Dataset Details
 The dataset (football.txt) contains text data regarding:
 
 Core Rules: Objectives, duration, and team structure.
@@ -22,7 +22,8 @@ Competitions: FIFA World Cup, UEFA Champions League.
 
 Gameplay elements: Tactics, VAR, and goalkeeping.
 
-📦 Installation
+# 📦 Installation
+
 1. Create a virtual environment (Windows)
 Bash
 
