@@ -73,6 +73,3 @@ This illustrates the contrast between stochastic and deterministic systems, show
    - Deterministic model sequence  
 
 ---
-
-## 📊 Expected Output (Example)
-
